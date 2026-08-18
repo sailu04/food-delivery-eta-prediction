@@ -156,9 +156,9 @@ if st.button("🚀 Predict Delivery Time", use_container_width=True):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://food-delivery-eta-prediction.onrender.com/predict",
             json=payload,
-            timeout=10
+            timeout=30
         )
 
         if response.status_code == 200:
