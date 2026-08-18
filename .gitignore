@@ -1,0 +1,35 @@
+﻿# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Local Streamlit
+.streamlit/secrets.toml
+# Raw/local datasets
+data/raw/
+# Duplicate models generated inside notebooks
+notebooks/models/
